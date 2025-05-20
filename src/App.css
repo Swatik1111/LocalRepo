@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -32,7 +32,140 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+*/
+
+
+.list-category {
+  font-size: 4 rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 5px;
+  color: black;
+  background-color: beige;
+}
+
+.list-items {
+  font-size: 2.5 rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(225, 87, 177);
+
+}
+
+.container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-display {
+  font-size: 5em;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+}
+
+.button-display {
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5em;
+  background-color: deepskyblue;
+  color: white;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.form-container {
+  /*display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  align-content: center;
+  */
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.cars-container {
+  text-align: center;
+
+}
+
+.to-do-list {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100 px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+button {
+  font-size: 1.5 rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px;
+
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5 ease;
+}
+
+.add-button {
+  background-color: hsl(160, 61%, 55%);
+}
+
+.add-button:hover {
+  background-color: hsl(160, 61%, 45%);
+}
+
+.delete-button {
+  background-color: hsl(0, 84%, 60%)
+}
+
+.delete-button:hover {
+  background-color: hsl(0, 84%, 50%);
+}
+
+.move-button {
+  background-color: hsl(230, 63%, 71%)
+}
+
+.move-button:hover {
+  background-color: hsl(230, 63%, 61%)
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid hsl(0, 7%, 84%);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.6);
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border: 2px solid hsla(0, 0%, 50%, 0.699);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+
 }
